@@ -1,0 +1,39 @@
+name: user_manuals_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: 3.1.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.5
+  riverpod: ^2.4.5
+  easy_localization: ^3.0.3
+  http: ^1.1.0
+  cloud_firestore: ^4.13.0
+  firebase_core: ^2.22.0
+  firebase_storage: ^11.5.0
+  firebase_auth: ^4.14.0
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  syncfusion_flutter_pdfviewer: ^23.1.44
+  firebase_database: ^10.3.4
+  path_provider: ^2.1.1
+  dio: ^5.3.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/categories/
+    - assets/manufacture/
+    - assets/products/
+    - assets/translations/
